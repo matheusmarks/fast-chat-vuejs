@@ -1,0 +1,29 @@
+
+#container {
+    width: 100%;
+    max-width: 1366px;
+    height: 100vh;
+}
+
+#container .chat-messages {
+    width: 700px;
+    height: 95vh;
+    margin: 0 auto;
+    border: 1px solid #555;
+}
+
+#container .chat-messages main {
+    width: 100%;
+    height: 580px;
+}
+
+#container .chat-messages .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: space-between;
+}
+
+#container .chat-messages .form-group input{
+    width: 600px;
+}
