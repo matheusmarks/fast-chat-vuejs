@@ -1,5 +1,5 @@
 <h1 align="center">Fast Chat</h1>
-<h4 align="center">Front-end da aplicação FastChat, que consiste em um chat feito com Socket.IO e Vue.js</h4>
+<h4 align="center">Front-end da aplicação FastChat, que consiste em um chat de bate-papo de 'sala' única feito com Socket.IO e Vue.js</h4>
 
 <h4 align="center"></h4>
 <p align="center">
