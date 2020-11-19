@@ -18,7 +18,7 @@ yarn serve
 ```
 
 ### Obeservação
-- Desculpe ter mandado a pasta node_modules aqui para o GitHub, isso porque esqueci de criar o arquivo .gitignore antes de fazer o primeiro commit.
+- Desculpe ter mandado a pasta node_modules aqui para o GitHub, isso aconteceu porque esqueci de criar o arquivo .gitignore antes de fazer o primeiro commit. Porém sei que isso é uma má prática.
 
 
 
