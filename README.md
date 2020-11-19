@@ -1,5 +1,5 @@
 <h1 align="center">Fast Chat</h1>
-<h4>Front-end da aplicação FastChat, que consiste em um chat feito com Socket.IO e Vue.js</h4>
+<h4 align="center">Front-end da aplicação FastChat, que consiste em um chat feito com Socket.IO e Vue.js</h4>
 
 <h4 align="center"></h4>
 <p align="center">
@@ -7,10 +7,6 @@
   <img alt="last commit" src="https://img.shields.io/github/last-commit/matheusmarks/fast-chat-vuejs.svg" />
 </p>
 
-<p align="center">
- <a href="#layout">Layout</a> • 
-</p>
-  
 <h2>Layout</h2>
 <p align="center"><img src="https://github.com/matheusmarks/images/blob/master/fastchat/login.png"></p>
 <p align="center"><img src="https://github.com/matheusmarks/images/blob/master/fastchat/cadastro.png"></p>
@@ -20,6 +16,8 @@
 ```
 yarn serve
 ```
+
+
 
 
 
