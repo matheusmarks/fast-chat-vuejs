@@ -1,26 +1,24 @@
 <h1 align="center">Fast Chat</h1>
 
-- Infelizmente, não consegui cumprir o desafio, apenas fiz a tela de login e a página do chat onde iriam ficar as mensagens, mas não consegui me conectar com socket.io não sei bem o motivo, mas tentei de várias formas e mesmo assim não funcionou. Me desculpem qualquer coisa. 
+<h4 align="center"></h4>
+<p align="center">
+  <img alt="top language" src="https://img.shields.io/github/languages/top/matheusmarks/fast-chat-vuejs.svg" />
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/matheusmarks/fast-chat-vuejs.svg" />
+</p>
 
-## Project setup
-```
-yarn install
-```
+<p align="center">
+ <a href="#layout">Layout</a> • 
+</p>
+  
+<h2>Layout</h2>
+<p align="center"><img src="https://github.com/matheusmarks/images/blob/master/fastchat/login.png"></p>
+<p align="center"><img src="https://github.com/matheusmarks/images/blob/master/fastchat/cadastro.png"></p>
+<p align="center"><img src="https://github.com/matheusmarks/images/blob/master/fastchat/chatroom.png"></p>
 
-### Compiles and hot-reloads for development
+### Para executar a aplicação, use o comando abaixo no terminal: 
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
