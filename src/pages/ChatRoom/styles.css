@@ -3,18 +3,33 @@
     width: 100%;
     max-width: 1366px;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #container .chat-messages {
-    width: 700px;
-    height: 95vh;
+    width: 100%;
+    height: 100vh;
     margin: 0 auto;
     border: 1px solid #555;
 }
 
 #container .chat-messages main {
     width: 100%;
-    height: 580px;
+    height: 600px;
+    overflow: scroll;
+}
+
+#container .chat-messages main .message {
+    width: fit-content;
+    height: fit-content;
+    
+    background-color: rgba(184, 184, 184, 0.84);
+    margin-left: 50px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    padding: 10px;
 }
 
 #container .chat-messages .form-group {
@@ -25,5 +40,68 @@
 }
 
 #container .chat-messages .form-group input{
-    width: 600px;
+    width: 90%;
+    margin-top: 10px; 
+    color: #333;
+    border: 1px solid #777;
 }
+
+#container .chat-messages .form-group input::placeholder{
+    color:  #555;
+}
+
+#container .chat-messages .form-group button{
+    margin-left: 5px;
+    margin-top: 10px; 
+    background-color: #111E6C;
+    transition: opacity 0.3s;
+}
+
+#container .chat-messages .form-group button:hover {
+    opacity: 0.9; 
+}
+
+#container .chat-info {
+    width: 400px;
+    height: 100vh;
+    background: linear-gradient(180deg, #1D2951 0%, #111E6C 99.94%,
+     rgba(0, 0, 3, 0.948077) 99.95%, rgba(29, 41, 81, 0.91258) 99.96%,
+      rgba(17, 30, 108, 0.901527) 99.97%, rgba(17, 30, 108, 0.729714) 
+      99.98%, rgba(17, 30, 108, 0.476821) 99.99%, rgba(29, 41, 81, 0) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container .chat-info .online {
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#container .chat-info h3{
+    font-family: Inter, sans-serif;
+    margin-top: -90px;
+    font-size: 40px;
+    color: #f0f0f1;
+}
+
+#container .chat-info p{
+    cursor: pointer;
+    color: #f0f0f1;
+}
+
+#container .chat-info .user-icon{
+    float: right;
+}
+
+#container .chat-info .online p{
+   color: #f0f0f1;
+}
+
+#container .chat-info a{
+    color: #f0f0f1;
+ }

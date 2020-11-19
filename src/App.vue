@@ -1,20 +1,15 @@
 <template>
   <div id="app">
-    <ChatRoom />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import LoginPage from './pages/Login/index.vue';
-import ChatRoom from './pages/ChatRoom/index.vue';
+
 
 export default {
-  name: 'App',
-  components: {
-    ChatRoom
-  }
+  name: 'App'
 }
-
 </script>
 
 <style>

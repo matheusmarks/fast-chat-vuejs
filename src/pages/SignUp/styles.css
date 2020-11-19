@@ -1,0 +1,83 @@
+
+#container {
+    width: 100%;
+    max-width: 1366px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#container .form-signup {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #1D2951 0%, #111E6C 99.94%,
+    rgba(0, 0, 3, 0.948077) 99.95%, rgba(29, 41, 81, 0.91258) 99.96%,
+     rgba(17, 30, 108, 0.901527) 99.97%, rgba(17, 30, 108, 0.729714) 
+     99.98%, rgba(17, 30, 108, 0.476821) 99.99%, rgba(29, 41, 81, 0) 100%);
+    
+}
+
+
+
+#container .form-signup h3{
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  color: #f0f0f1;
+  margin-top: -120px;
+  animation: shimmy 1s;
+}
+
+#container .form-signup p{
+    color: #f0f0f1;
+    margin-bottom: 40px;
+    animation: shimmy 1.5s;
+}
+
+#container .form-signup form {
+    width: 47%;
+    height: 200px;
+    animation: shimmy 2s;
+}
+
+#container .form-signup form input{
+   margin-top: 9px;
+   background-color: #ddd;
+   color: #444;
+}
+
+#container .form-signup form input::placeholder {
+    color: #444;
+}
+
+#container .form-signup form button{
+    width: 100%;
+    margin-top: 9px;
+    background-color: #3368FF;
+}
+
+#container .form-signup a{
+    margin-top: 60px;
+    color: #f0f0f1;
+}
+
+
+@keyframes shimmy {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+
+
+
+
