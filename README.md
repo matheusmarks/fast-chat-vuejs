@@ -14,6 +14,9 @@
 
 ### Para executar a aplicação, use o comando abaixo no terminal: 
 ```
+yarn install
+```
+```
 yarn serve
 ```
 
